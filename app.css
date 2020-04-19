@@ -1,0 +1,107 @@
+.rectangle
+{
+  box-shadow: 0 1px 4px 0 rgba(192, 192, 192, 0.5);
+  background-color: #f8f8f8;
+  height: 60px;
+
+}
+
+.nav-item{
+  width: 35px;
+  height: 19px;
+  opacity: 0.77;
+  font-family: ProductSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888888;
+}
+
+#header-block {
+padding-top:6.5rem;
+}
+
+.main-header h5{
+  opacity: 0.77;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #888888;
+
+
+}
+
+.sub-header{
+  opacity: 0.77;
+  font-family: Roboto, Helvetica, sans-serif; /*change the fonts*/
+  text-align: center;
+  color: #111111;
+}
+
+.feature-block{
+  margin-top: 3rem;
+  background-color: #ececec;
+
+}
+
+#feature-list ul{
+  list-style: none;
+  padding-left: 0;
+  padding-top:1.5rem;
+
+}
+.feature-description {
+  padding-bottom:1.5rem
+}
+
+.feature-description-text {
+  width:96px;
+  opacity: 0.24;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.5;
+  color: #111111;
+  padding-bottom:1.5rem
+}
+
+#image-block {
+  margin-top:1.5rem;
+  width: 366px;
+  height: 172px;
+  border: solid 1px #979797;
+  background-color: #d8d8d8;
+
+}
+
+#background-role-block {
+margin-top: 3rem
+}
+
+#decorator-block {
+  background-color: #ececec;
+  height: 240px;
+  margin-top: 3rem
+}
+.deocoration-bar {
+  width: 25px;
+  height: 2px;
+  background-color: #ffd46e;
+}
+#research-block {
+margin-top: 6rem;
+
+}
+.image-block {
+  width: 551px;
+  height: 422px;
+  border: solid 1px #979797; /* change border colors*/
+  background-color: #ffffff;
+}
+
+#analysis-block {
+margin-top: 6rem;
+
+}

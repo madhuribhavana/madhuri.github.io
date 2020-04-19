@@ -1,369 +1,138 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="UX Portfolio" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="description" content="UX Portfolio" />
+    <meta name="author" content="To be changed" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="madhuri, madhuri bhavana, madhuri portfolio, UX Designer, madhuri georgia tech, madhuri amazon, madhuri UX">
+       <!-- Adding Polyfil Js for cross-browser compatability -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.42/polyfill.js"></script>
+       <!-- Adding bootstrap for the cross-device compatability -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Add the global css file for CSS edits  -->
+    <link rel="stylesheet" type="text/css" href="app.css" />
+  </head>
 
-    <meta name="author" content="">
+  <body id="app-body" class="placard">
 
+    <!-- Navigation bar starts -->
+    <nav id="nav-bar" class="navbar rectangle d-flex justify-content-between">
+      <div id="logo" class="col-2">Logo</div>
 
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-
-    <title>Madhuri Bhavana - Portfolio</title>
-
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-     <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <script src="https://use.fontawesome.com/938ca7b6fa.js"></script>
-
-
-     <style>
-      .carousel-inner > .item > img,
-      .carousel-inner > .item > a > img 
-        {
-          width: 100%;
-          margin: auto;
-         }
-     </style>   
-
-
-     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-
-</head>
-
-
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style = "font-size:30px;font-weight:500"> Madhuri Bhavana</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" >
-
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    
-                    <li >
-                        <a class="page-scroll" href="#portfolio">Work</a>
-                    </li>
-
-                     <li>
-                        <a class="page-scroll" href="#about">Journey</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-
-                    <li>
-                        <a class="page-scroll" href="resume/resumeweb.pdf" target="_blank">Resume</a>
-                        <!-- <a class="page-scroll" href="resume.html">Resume</a> -->
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      <div id="nav-items" class="col-3 d-flex justify-content-between">
+        <div><a href="#"><span class="nav-item">Work</span></a>
         </div>
-        <!-- /.container-fluid -->
+        <div><a href="#"><span class="nav-item">About</span></a>
+        </div>
+        <div><a href="#"><span class="nav-item">Contact</span></a>
+        </div>
+        <div><a href="#"><span class="nav-item">Resume</span></a>
+        </div>
+      </div>
     </nav>
+    <!-- Navigation bar ends  -->
 
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
+      <div id="header-block" class="container-fluid">
+        <div class="main-header row d-flex justify-content-center"><h5>AMAZON, NEW INITIATIVE</h4></div>
+        <div class="sub-header row d-flex justify-content-center"><h4 class="col-3">Designing a fully assisted online shopping experience for emerging markets</h4></div>
 
+      </div>
+      <div id="feature-block" class="row col-5 container-fluid feature-block d-flex justify-content-around">
 
- 	<section class="">
-            <div class="container">
-            <div class = "row">
-            <div class="intro-text">
-
-                <div class = "col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                </div>
-           
-                <div class = "col-lg-8 col-md-8 col-sm-8 col-xs-8">
-                    
-                <br>
-                <br>
-                <img class="img-responsive img-centered" src="maddycartoon.png" alt="maddy's caricature" style = "width:30%">   
-
-                <br><br>
-
-                <p style = "font-family: :Montserrat; font-size : 27px;" class = "text-center"> Hi, I am Madhuri. <br> I am a UX Researcher and an Interaction Designer. </p>
-
-                <p style = "font-size : 15px" class = "text-center"> I am currently pursuing Masters in Human Computer Interaction at <a href ="http://mshci.gatech.edu/students"><b>Georgia Tech</b></a>. Prior to this, I did my Bachelors in Design from <a href= "http://www.iitg.ac.in/design/"><b>Indian Institute of Technology Guwahati </b></a> after which I worked for a year at <a href ="https://www.cardekho.com/"><b>CarDekho</b></a>, a Google Ventures funded and an auto related startup in India. I am passionate about creating delightful user experiences. <a href = "#About"> More ></a> </p>
-
-               </div>
-
-	           
+          <div id="feature-list" class="col-4 d-flex align-items-start flex-column">
+            <div class="features"><ul>
+              <li>2G Internet</li>
+              <li>Feature phones</li>
+              <li>Transaction Barriers</li>
+              <li>Language</li>
+            </ul></div>
+            <div class="feature-description">
+              <span class="feature-descrption-text">
+                Read more about how we designed to enable rural India shop online despite these barriers.
+              </span>
             </div>
-	        </div>
-	        </div>
-	</section>
-    <!-- </header> -->
+          </div>
+
+          <div id="image-block" class="col-4"><img src='' alt = "project-image.png"/></div>
 
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Work</h2>
-                    <h3 class="section-subheading text-muted"> </h3>
+
+
+      </div>
+      <div id="background-role-block" class="row col-6 container-fluid d-flex justify-content-around">
+
+          <div id="background-block" class="col-5">
+              <div class="backgrond-header">
+                <h5>BACKGROUND/CONTEXT</h5>
+              </div>
+              <div class="backgrund-descrption">
+                <span class="background-descrption-text">
+                  India is a mobile first nation where people where people access internet mostly through prepaid data and where there is only 1 hotstop per 3,900 people. Hundreds of millions of users face transaction barriers due to flaky internet, payment methods and other reasons such as trust, language, lack of access and education. Amazon's mission to enable everybody in India shop online led to the creation of Amazon Easy (Udaan).
+                </span>
+              </div>
+          </div>
+
+          <div id="role-duration-block" class="col-4">
+              <div class = "role-block" >
+                <div class="role-header">
+                  <h5>ROLE</h5>
                 </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="amazon.html" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="proimg1.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Amazon - Assisted shopping</h4>
-                        <p class="text-muted">Interaction Design, Design for underexposed</p>
-                    </div>
+                <div class="role-descrption">
+                  <h6 class="role">UX Intern</h6>
+                  <span class="role-descrption-text">
+                    Worked with the New Initiatives Team (marketing + tech team) at Amazon India for designing an e-commerce shopping experience for Rural India.
+                  </span>
                 </div>
-
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="proimg2.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Fridzy</h4>
-                        <p class="text-muted">User Experience Design</p>
-                    </div>
+                <br/>
+                <div class="role-duration">
+                  <h6 class="role">DURATION</h6>
+                  <span class="role-descrption-text">
+                     May - July 2015
+                  </span>
                 </div>
-   
-    </section> 
-               
+              </div>
+          </div>
 
 
-<!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Journey</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            
-        <div class = "col-lg-1 col-md-1 col-sm-1 col-xs-1"> </div>
-           
-        <div class = "col-lg-10 col-md-10 col-sm-10 col-xs-10">
 
-                <p style = "font-size : 15px" class = "text-center"> I am currently pursuing Masters in Human Computer Interaction at <a href ="http://mshci.gatech.edu/students"><b>Georgia Tech</b></a>. Prior to this, I did my Bachelors in Design from <a href= "http://www.iitg.ac.in/design/"><b>Indian Institute of Technology Guwahati </b></a> after which I worked for a year at <a href ="https://www.cardekho.com/"><b>CarDekho</b></a>, a Google Ventures funded and an auto related startup in India. I am passionate about creating delightful user experiences. <a href = "#About"> More ></a> </p>
 
-        </div>    
+      </div>
+      <div id="decorator-block" class="container-fluid">
+      </div>
+      <div id="research-block" class="row col-6 container d-flex align-items-start justify-content-around">
+        <div class="col-3">
+          <div class="deocoration-bar"><hr/></div>
+          <h6>RESEARCH</h6>
+        </div>
+        <div class="image-block">
+
 
         </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color:white">Let's Chat</h2>
-                    <h3 class="section-subheading text-muted" style = "color:#bababa">I would love to hear from you! <br><br><a href="mailto:madhuribhavana@gatech.edu" style = "color:white">madhuribhavana15@gmail.com</a></h3> 
-                    <h3 class = "section-subheading text-center" style = "color:white">213.344.8223 | Atlanta, GA</h3>
-                </div>
-            </div>
-            
+      </div>
+      <div id="analysis-block" class="row col-6 container d-flex align-items-start justify-content-around">
+        <div class="col-3">
+          <div class="deocoration-bar"><hr/></div>
+          <h6>ANALYSIS</h6>
         </div>
-    </section>
+        <div class="image-block">
 
 
-<!-- Footer Section --> 
-
-     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Madhuri Bhavana</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://www.behance.net/madhuribhavana" target="_blank" style = "background-color: #053eff"><i class="fa fa-behance" style = "font-size:20px; line-height: 40px"></i></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/madhuribhavana" target="_blank" style = "background-color:#3b5998"><i class="fa fa-facebook" style = "font-size:20px; line-height: 40px"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/madhuri-bhavana-7261315a" target="_blank" style = "background-color:#0077B5"><i class="fa fa-linkedin" style = "font-size:20px; line-height: 40px"></i></a>
-                        </li>
-                        <li><a href="https://www.instagram.com/madhuribhavana/" target="_blank" style = "background-color:#125688"><i class="fa fa-instagram" style = "font-size:20px; line-height: 40px"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Back to the top</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
         </div>
-    </footer>
-
-
- <!-- Portfolio Modal 2 - Amazon -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-lg-offset-0">
-                        <div class="modal-body">
-                            <h2>UX Design for Kindle Content Editor - Amazon</h2>
-                            <p class="item-intro text-muted">The project was carried out as a part of my UX Design Internship at Amazon. I worked on the User Experience and evaluation of a Kindle Content Editor tool. <b>Details of the product are omitted due to a Non-Disclosure Agreement.</b></p>
-
-
-                            <img class="img-responsive img-centered" src="img/portfolio/amazon-process-diagram.png" alt="">
-
-                            <ul class="list-inline">
-                                <li><b>Timeline:</b> May - July 2014</li>
-                                <li><b>Employer:</b> Amazon.com</li>
-                                <li><b>Mentor:</b> Mr. Sridhar Godavarthy, senior Software Development Engineer, amazon.com </li>
-                            </ul>
-
-                            <h3>BACKGROUND</h3>
-
-
-                            <div class="row centered">
-                                
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-
-                                     <p> The Amazon Kindle has a collection of interactive books that make reading more engaging and fun. However, the process of creating these books is not as easy and user friendly. The goal of my internship at Amazon was to identify usability challenges faced by creators of interactive Kindle content, and coming up with design solutions for the desktop to solve these challenges.</p>
-
-                                     <p> I evaluated existing tools and methods to create and edit Kindle content. This included content being transferred from authors to operators, and use of complex tools such as Adobe InDesign to edit Kindle books. </p> <p>I suggested new user flows for making Kindle content creation more user friendly, so that content can be created and edited by the author directly. I tested my design solutions, and iterated on them to deliver a final UX design specification document. </p>
-                                </div>
-
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <img class="img-responsive img-centered" src="img/portfolio/amazon-indes.jpg" alt="">
-                                    <p class = "text-center"> Tools currently used to edit Kindle content </p>
-                                </div>
-                            </div>
-
-                            <h3>TEAM</h3>
-                            <p> The project was carried out in a multi-disciplinary team of 6 software developers, 1 operator, and 2 interaction designers. I was the interaction designer for this project. Additional members joined the team after the end of my internship.</p>
-
-                            <h3> PROCESS </h3>
-                            <p> I began by understanding the process of Kindle Content Editing. This involved attending tutorial sessions given to operators, interviewing experts, reading product specifications and interviewing the users. Amazon has a heavy focus on User Centered Design. I conducted contextual interviews, and made 4 user personas for the product. User needs and goals were evaluated. I also generated several sample use cases for the product.</p>
-                            <!-- <img class="img-responsive img-centered" src="img/portfolio/amazon-existingframework.png" alt=""> -->
-                            <p> I further made task flows of the existing products (internal and external) used for Kindle Content Editing. Based on user interview need-finding, I marked breakpoints in these task flows, where existing tools failed to meet the user needs. </p>
-                            <img class="img-responsive img-centered" src="img/portfolio/amazon-taskflow.png" alt="">
-                            <p class = 'text-center'>Existing task flows for adding Kindle content</p>
-
-                            <p> I ideated on new and changed product features. I presented these and went through two rounds of critique for these ideas. I further iterated features after each round. New task-flows were generated for each use case identified.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/amazon-newtaskflow.png" alt="">
-                            <p class = 'text-center'>Re-imagining task flows</p>
-                            <p> I paper-prototyped these ideas, and tested them with users. I conducted think-aloud sessions with these low-fidelity prototypes and iterated on them. I created high fidelity clickable wireframes and tested them with users. Based on test findings, I made changes in every successive iteration. I iterated through 3 rounds of wireframes. I delivered a full UX specification document with wireframes, layouts and mock-ups.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/amazon-wireframe.png" alt="">
-                            <p><b> No final product details or names are included here due to a Non-Disclosure Agreement. </b></p>
-
-                            <h3> WHAT I LEARNED </h3>
-                            <p> I learned the User Centered Design methodology followed at Amazon, that I find useful to refer back to in my work. I learned working directly, and communicating seamlessly with developers. I learned periodic work presentation for critique sessions. The biggest challenge for the project was gaining access to users for contextual interviews. </p>
-
-                            <p> I was guided by an amazing mentor, who taught me a great deal about the product based industry, as well as designing desktop products. I was given a full-time employment opportunity at Amazon at the completion of my internship. </p>
-
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
 
 
- <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-
-    <script language="javascript" type="text/javascript">
-    //     $(function(){
-    //         $('.close-modal').click(function(){
-    //             console.log("closed");
-    //             //var x = document.getElementById("vid-1");
-    //             //x.src = x.src;
-    //             $('iframe').each(function() {
-    //                 var src= $(this).attr('src');
-    //                 $(this).attr('src',src);
-    //                 console.log(src);
-    //             });
-    //         });
-    //     });
-    // </script>
-
-</body>
-</html> 
-
-
+  </body>
+</html>
