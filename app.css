@@ -10,7 +10,7 @@
   width: 35px;
   height: 19px;
   opacity: 0.77;
-  font-family: ProductSans;
+  font-family: Product Sans;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -25,10 +25,10 @@
 padding-top:6.5rem;
 }
 
-.main-header h5{
+.main-header h3{
   opacity: 0.77;
-  font-family: Roboto, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: Product Sans, Helvetica, sans-serif;
+  font-size: 16px;
   color: #888888;
 
 
@@ -36,7 +36,7 @@ padding-top:6.5rem;
 
 .sub-header{
   opacity: 0.77;
-  font-family: Roboto, Helvetica, sans-serif; /*change the fonts*/
+  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
   text-align: center;
   color: #111111;
 }
@@ -78,6 +78,9 @@ padding-top:6.5rem;
 
 #background-role-block {
 margin-top: 3rem
+}
+#background-block{
+  padding-left: 0;
 }
 
 #decorator-block {
