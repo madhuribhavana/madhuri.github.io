@@ -98,11 +98,7 @@ margin-top: 3rem
 }
 
 .intro-description-text {
-<<<<<<< HEAD
   font-family: sf-regular, Roboto, Helvetica /*change the fonts*/
-=======
-  font-family: sf-regular; /*change the fonts*/
->>>>>>> b50cf42a1d7b3ae462854463b82357d47e53d395
   color: #777;
 }
 
