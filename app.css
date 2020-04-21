@@ -3,6 +3,10 @@
   src: url("./font/SF-Pro-Text-Regular.otf");
 }
 
+@font-face {
+  font-family: product-sans-regular;
+  src: url("./font/Product Sans Regular.ttf");
+}
 
 .rectangle
 {
