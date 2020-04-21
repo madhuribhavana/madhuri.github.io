@@ -4,7 +4,7 @@
     <title>a0</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <radialGradient cx="49.1024116%" cy="53.1839776%" fx="49.1024116%" fy="53.1839776%" r="46.8160224%" gradientTransform="translate(0.491024,0.531840),scale(0.497522,1.000000),rotate(90.000000),translate(-0.491024,-0.531840)" id="radialGradient-1">
+        <radialGradient cx="49.1024116%" cy="53.1839776%" fx="49.1024116%" fy="53.1839776%" r="46.326708%" gradientTransform="translate(0.491024,0.531840),scale(0.497522,1.000000),rotate(90.000000),translate(-0.491024,-0.531840)" id="radialGradient-1">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
             <stop stop-color="#DCDCDC" offset="100%"></stop>
         </radialGradient>
@@ -21,7 +21,7 @@
             <stop stop-color="#F4F5F6" offset="0%"></stop>
             <stop stop-color="#F5F6F7" offset="100%"></stop>
         </linearGradient>
-        <path d="M14.8523726,-3.6227739e-12 L318.219379,-3.6227739e-12 C326.382491,-3.62249708e-12 333,6.61750934 333,14.7806208 L333,450.219379 C333,458.382491 326.382491,465 318.219379,465 L14.8523726,465 C6.68926112,465 0.0717517776,458.382491 0.0717517776,450.219379 L0.0717517776,14.7806208 C0.0717517776,6.61750934 6.68926112,-3.61061622e-12 14.8523726,-3.6227739e-12 Z" id="path-4"></path>
+        <path d="M14.8523726,-3.6227739e-12 L318.219379,-3.6227739e-12 C326.382491,-3.62427344e-12 333,6.61750934 333,14.7806208 L333,450.219379 C333,458.382491 326.382491,465 318.219379,465 L14.8523726,465 C6.68926112,465 0.0717517776,458.382491 0.0717517776,450.219379 L0.0717517776,14.7806208 C0.0717517776,6.61750934 6.68926112,-3.61239257e-12 14.8523726,-3.6227739e-12 Z" id="path-4"></path>
         <filter x="-1.1%" y="-0.8%" width="102.1%" height="101.5%" filterUnits="objectBoundingBox" id="filter-6">
             <feGaussianBlur stdDeviation="2.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
@@ -116,7 +116,7 @@
                 <feMergeNode in="shadowMatrixInner2"></feMergeNode>
             </feMerge>
         </filter>
-        <path d="M1.09105699,31.6833667 L1.56625479,31.6833667 C1.90638443,31.6833667 2.18211399,31.9590963 2.18211399,32.2992259 L2.18211399,57.4703131 C2.18211399,57.8104428 1.90638443,58.0861723 1.56625479,58.0861723 L1.09105699,58.0861723 C0.488482855,58.0861723 7.3794049e-17,57.5976895 0,56.9951154 L0,32.7744237 C-7.3794049e-17,32.1718496 0.488482855,31.6833667 1.09105699,31.6833667 Z" id="path-19"></path>
+        <path d="M1.09105699,31.6833667 L1.56625479,31.6833667 C1.90638443,31.6833667 2.18211399,31.9590963 2.18211399,32.2992259 L2.18211399,57.4703131 C2.18211399,57.8104428 1.90638443,58.0861723 1.56625479,58.0861723 L1.09105699,58.0861723 C0.488482855,58.0861723 -3.70295161e-16,57.5976895 0,56.9951154 L0,32.7744237 C-7.3794049e-17,32.1718496 0.488482855,31.6833667 1.09105699,31.6833667 Z" id="path-19"></path>
         <filter x="-91.7%" y="-7.6%" width="283.3%" height="115.1%" filterUnits="objectBoundingBox" id="filter-20">
             <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="-2" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
@@ -135,7 +135,7 @@
             <stop stop-color="#EFF0F1" offset="85.5341381%"></stop>
             <stop stop-color="#939698" offset="100%"></stop>
         </linearGradient>
-        <path d="M1.09105699,0 L1.25832519,0 C1.76851965,-9.3721203e-17 2.18211399,0.413594334 2.18211399,0.9237888 L2.18211399,13.9860308 C2.18211399,14.4962253 1.76851965,14.9098196 1.25832519,14.9098196 L1.09105699,14.9098196 C0.488482855,14.9098196 -6.32176098e-16,14.4213368 0,13.8187626 L0,1.09105699 C1.48250556e-16,0.488482855 0.488482855,1.10691074e-16 1.09105699,0 Z" id="path-22"></path>
+        <path d="M1.09105699,0 L1.25832519,0 C1.76851965,-9.3721203e-17 2.18211399,0.413594334 2.18211399,0.9237888 L2.18211399,13.9860308 C2.18211399,14.4962253 1.76851965,14.9098196 1.25832519,14.9098196 L1.09105699,14.9098196 C0.488482855,14.9098196 1.40606168e-15,14.4213368 0,13.8187626 L0,1.09105699 C-7.3794049e-17,0.488482855 0.488482855,1.10691074e-16 1.09105699,0 Z" id="path-22"></path>
         <filter x="-91.7%" y="-13.4%" width="283.3%" height="126.8%" filterUnits="objectBoundingBox" id="filter-23">
             <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="-2" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
@@ -149,7 +149,7 @@
                 <feMergeNode in="shadowMatrixInner2"></feMergeNode>
             </feMerge>
         </filter>
-        <path d="M1.09105699,63.3667335 L1.56625479,63.3667335 C1.90638443,63.3667335 2.18211399,63.642463 2.18211399,63.9825927 L2.18211399,89.1536799 C2.18211399,89.4938095 1.90638443,89.7695391 1.56625479,89.7695391 L1.09105699,89.7695391 C0.488482855,89.7695391 7.3794049e-17,89.2810562 0,88.6784821 L0,64.4577905 C1.48250556e-16,63.8552163 0.488482855,63.3667335 1.09105699,63.3667335 Z" id="path-24"></path>
+        <path d="M1.09105699,63.3667335 L1.56625479,63.3667335 C1.90638443,63.3667335 2.18211399,63.642463 2.18211399,63.9825927 L2.18211399,89.1536799 C2.18211399,89.4938095 1.90638443,89.7695391 1.56625479,89.7695391 L1.09105699,89.7695391 C0.488482855,89.7695391 -5.92339766e-16,89.2810562 0,88.6784821 L0,64.4577905 C-2.95838654e-16,63.8552163 0.488482855,63.3667335 1.09105699,63.3667335 Z" id="path-24"></path>
         <filter x="-91.7%" y="-7.6%" width="283.3%" height="115.1%" filterUnits="objectBoundingBox" id="filter-25">
             <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="-2" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
@@ -253,15 +253,17 @@
                 <use stroke="#C0C0C0" stroke-width="0.5346" xlink:href="#rect-31"></use>
             </g>
         </g>
-        <text id="A-fully-assisted-and" font-family="SFProText-Light, SF Pro Text" font-size="21" font-weight="300" line-spacing="30" fill="#555555">
-            <tspan x="101" y="219">A </tspan>
-            <tspan x="120.656738" y="219" font-family="SFProText-Medium, SF Pro Text" font-weight="400">fully assisted</tspan>
-            <tspan x="254.285645" y="219"> and </tspan>
-            <tspan x="302.28418" y="219" font-family="SFProText-Medium, SF Pro Text" font-weight="400">localized</tspan>
-            <tspan x="392.077637" y="219"> </tspan>
-            <tspan x="101" y="249">shopping solution to enable </tspan>
-            <tspan x="101" y="279">rural India shop online despite </tspan>
-            <tspan x="101" y="309">technical and cultural barriers. </tspan>
+        <text id="Amazon-Easy-/aməzən" font-family="SFProText-Medium, SF Pro Text" font-size="30" font-weight="400" line-spacing="21" fill="#555555">
+            <tspan x="106" y="220"> Amazon Easy</tspan>
+            <tspan x="119.139648" y="252.402344" font-size="16" line-spacing="30">/aməzən ˈēzē/</tspan>
+            <tspan x="119.139648" y="282.402344" font-family="SFProText-Light, SF Pro Text" font-size="18" font-weight="300" line-spacing="24">A </tspan>
+            <tspan x="135.988281" y="282.402344" font-size="18" line-spacing="24">fully assisted</tspan>
+            <tspan x="250.527344" y="282.402344" font-family="SFProText-Light, SF Pro Text" font-size="18" font-weight="300" line-spacing="24"> and </tspan>
+            <tspan x="291.668945" y="282.402344" font-size="18" line-spacing="24">localized</tspan>
+            <tspan x="368.634766" y="282.402344" font-family="SFProText-Light, SF Pro Text" font-size="18" font-weight="300" line-spacing="24"> </tspan>
+            <tspan x="119.139648" y="306.402344" font-family="SFProText-Light, SF Pro Text" font-size="18" font-weight="300" line-spacing="24">shopping solution to enable rural </tspan>
+            <tspan x="119.139648" y="330.402344" font-family="SFProText-Light, SF Pro Text" font-size="18" font-weight="300" line-spacing="24">India shop online despite technical </tspan>
+            <tspan x="119.139648" y="354.402344" font-family="SFProText-Light, SF Pro Text" font-size="18" font-weight="300" line-spacing="24">and cultural barriers. </tspan>
         </text>
     </g>
 </svg>

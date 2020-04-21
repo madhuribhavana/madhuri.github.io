@@ -31,13 +31,11 @@
 padding-top:6.5rem;
 }
 
-.main-header h3{
+.main-header{
   opacity: 0.77;
   font-family: Product Sans, Helvetica, sans-serif;
   font-size: 16px;
   color: #888888;
-
-
 }
 
 .sub-header{
@@ -50,7 +48,6 @@ padding-top:6.5rem;
 .feature-block{
   margin-top: 3rem;
   background-color: #fff;
-
 }
 
 #feature-list ul{
@@ -59,9 +56,11 @@ padding-top:6.5rem;
   padding-top:1.5rem;
 
 }
+
 .feature-description {
   padding-bottom:1.5rem
 }
+
 
 .feature-description-text {
   width:96px;
@@ -89,20 +88,39 @@ margin-top: 3rem
   padding-left: 0;
 }
 
+.intro-headers{
+  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
+  color: #111111;
+}
+
+.intro-description-text {
+  font-family: Roboto, helvetica, sans-serif;; /*change the fonts*/
+  color: #777;
+}
+
 #decorator-block {
-  background-color: #ececec;
-  height: 240px;
+  background-color: #efefef;
+  width: 100%;
   margin-top: 3rem
 }
+
+.full-image-center{
+  display:block;
+  margin-left:Auto;
+  margin-right:auto;
+  padding: 4rem;
+}
+
 .deocoration-bar {
   width: 25px;
   height: 2px;
   background-color: #ffd46e;
 }
+
 #research-block {
 margin-top: 6rem;
-
 }
+
 .image-block {
   width: 551px;
   height: 422px;
