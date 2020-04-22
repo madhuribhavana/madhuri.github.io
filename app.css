@@ -5,15 +5,13 @@
 
 @font-face {
   font-family: product-sans-regular;
-  src: url("./font/Product Sans Regular.ttf");
+  src: url("./font/ProductSans-Regular.ttf");
 }
 
-.rectangle
-{
+.rectangle{
   box-shadow: 0 1px 4px 0 rgba(192, 192, 192, 0.5);
   background-color: #f8f8f8;
   height: 60px;
-
 }
 
 .nav-item{
@@ -97,7 +95,7 @@ margin-top: 3rem
   color: #111111;
 }
 
-.intro-description-text {
+.intro-description-text{
   font-family: sf-regular, Roboto, Helvetica /*change the fonts*/
   color: #777;
 }
@@ -113,6 +111,20 @@ margin-top: 3rem
   margin-left:Auto;
   margin-right:auto;
   padding: 4rem;
+  width:100%;
+}
+
+.process{
+  padding-bottom: 4rem;
+}
+
+.process-image{
+  display:block;
+  margin-left:Auto;
+  margin-right:auto;
+  width:100%;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 .deocoration-bar {
@@ -126,9 +138,6 @@ margin-top: 6rem;
 }
 
 .image-block {
-  width: 551px;
-  height: 422px;
-  border: solid 1px #979797; /* change border colors*/
   background-color: #ffffff;
 }
 
