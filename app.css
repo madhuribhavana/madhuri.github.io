@@ -97,7 +97,12 @@ margin-top: 3rem
 
 .intro-description-text{
   font-family: sf-regular, Roboto, Helvetica /*change the fonts*/
-  color: #777;
+  color: #999999;
+}
+
+.intro-description-text span{
+  font-family: sf-regular, Roboto, Helvetica /*change the fonts*/
+  color: #999999;
 }
 
 #decorator-block {
@@ -128,8 +133,8 @@ margin-top: 3rem
 }
 
 .deocoration-bar {
-  width: 25px;
-  height: 2px;
+  width: 30px;
+  height: 10px;
   background-color: #ffd46e;
 }
 
