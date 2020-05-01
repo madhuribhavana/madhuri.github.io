@@ -18,7 +18,7 @@
   width: 35px;
   height: 19px;
   opacity: 0.77;
-  font-family: Product Sans;
+  font-family: Montserrat;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -92,7 +92,7 @@ margin-top: 3rem
 
 .intro-headers{
   font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
-  color: #111111;
+  color: #111;
 }
 
 .intro-description-text{
@@ -103,6 +103,10 @@ margin-top: 3rem
 .intro-description-text span{
   font-family: sf-regular, Roboto, Helvetica /*change the fonts*/
   color: #999999;
+}
+
+.paragraph-description {
+  color:#777
 }
 
 #decorator-block {
