@@ -2,6 +2,10 @@
   font-family: sf-regular;
   src: url("./font/SF-Pro-Text-Regular.otf");
 }
+@font-face {
+  font-family: sf-bold;
+  src: url("./font/SF-Pro-Text-Bold.otf");
+}
 
 @font-face {
   font-family: product-sans-regular;
@@ -149,4 +153,33 @@ margin-top: 6rem;
 #analysis-block {
 margin-top: 6rem;
 
+}
+#footer-block {
+  height: 265px;
+  background-color: #ececec;
+}
+.next-page{
+  opacity: 0.77;
+  font-family: sf-bold;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #919191;
+}
+.footer-place-holder {
+  padding-top: 3rem
+}
+.place-holder{
+  opacity: 0.77;
+  font-family: sf-regular;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #919191;
 }
