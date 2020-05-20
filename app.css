@@ -12,6 +12,12 @@
   src: url("./font/ProductSans-Regular.ttf");
 }
 
+@font-face {
+  font-family: sf-medium;
+  src: url("./font/SF-Pro-Text-Medium.otf");
+}
+
+
 .rectangle{
   box-shadow: 0 1px 4px 0 rgba(192, 192, 192, 0.5);
   background-color: #f8f8f8;
@@ -37,11 +43,23 @@
 padding-top:6.5rem;
 }
 
-.main-header{
+.main-header {
   opacity: 0.77;
   font-family: Product Sans, Helvetica, sans-serif;
   font-size: 16px;
   color: #888888;
+}
+
+.sub-heading {
+  opacity: 0.77;
+  font-family: sf-medium, Roboto, Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: #999999;
 }
 
 .sub-header{
@@ -232,4 +250,10 @@ margin-top: 6rem;
  line-height: normal;
  letter-spacing: normal;
  color: #232323;
+}
+
+.content-holder {
+  height: 264px;
+  background-color: #ececec;
+  margin-bottom: 10px
 }
