@@ -2,6 +2,12 @@
   font-family: sf-regular;
   src: url("./font/SF-Pro-Text-Regular.otf");
 }
+
+@font-face {
+  font-family: sf-light;
+  src: url("./font/SF-Pro-Text-Light.otf");
+}
+
 @font-face {
   font-family: sf-bold;
   src: url("./font/SF-Pro-Text-Bold.otf");
@@ -70,6 +76,14 @@ padding-top:6.5rem;
   font-size: 36px;
 }
 
+.sub-header h3{
+  opacity: 0.77;
+  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
+  text-align: center;
+  color: #111;
+  font-size: 24px;
+}
+
 .feature-block{
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -115,7 +129,7 @@ margin-top: 3rem
 }
 
 .intro-headers{
-  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
+  font-family: sf-medium, Helvetica, sans-serif; /*change the fonts*/
   color: #111;
 }
 
@@ -126,12 +140,12 @@ margin-top: 3rem
 }
 
 .intro-description-text{
-  font-family: sf-regular, Roboto, Helvetica /*change the fonts*/
+  font-family: sf-light, Roboto, Helvetica /*change the fonts*/
   color: #999999;
 }
 
 .intro-description-text span{
-  font-family: sf-regular, Roboto, Helvetica /*change the fonts*/
+  font-family: sf-light, Roboto, Helvetica /*change the fonts*/
   color: #999999;
 }
 
@@ -256,4 +270,12 @@ margin-top: 6rem;
   height: 264px;
   background-color: #ececec;
   margin-bottom: 10px
+}
+
+.section-header h2{
+  opacity: 0.77;
+  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
+  text-align: center;
+  color: #111;
+  font-size: 42px;
 }
