@@ -272,10 +272,26 @@ margin-top: 6rem;
   margin-bottom: 10px
 }
 
+#section-x-block{
+  margin-top: 4rem;
+}
+
 .section-header h2{
   opacity: 0.77;
   font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
   text-align: center;
+  padding-left: 55px;
   color: #111;
   font-size: 42px;
+}
+
+.text-box {
+  background-color: #ececec;
+}
+.text-box-inner {
+  padding: 30px 12px 12px 12px;
+}
+.text-box-inner p{
+  padding-top: 20px;
+  color: #555;
 }
