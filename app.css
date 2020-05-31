@@ -297,6 +297,9 @@ margin-top: 6rem;
 }
 .text-box-inside{
   padding-left: 4rem;
-    padding-right: 0px;
+  padding-right: 0px;
+}
 
+#summary-block{
+  margin-top: 6rem;
 }
