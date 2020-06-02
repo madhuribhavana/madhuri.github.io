@@ -34,7 +34,7 @@
   width: 35px;
   height: 19px;
   opacity: 0.77;
-  font-family: Montserrat;
+  font-family: Montserrat !important;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -51,14 +51,14 @@ padding-top:6.5rem;
 
 .main-header {
   opacity: 0.77;
-  font-family: Product Sans, Helvetica, sans-serif;
+  font-family: Product Sans, Helvetica, sans-serif !important;
   font-size: 16px;
   color: #888888;
 }
 
 .sub-heading {
   opacity: 0.77;
-  font-family: sf-medium, Roboto, Helvetica;
+  font-family: sf-medium, Roboto, Helvetica !important;
   font-size: 14px;
   font-weight: 500;
   font-stretch: normal;
@@ -70,7 +70,7 @@ padding-top:6.5rem;
 
 .sub-header{
   opacity: 0.77;
-  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
+  font-family: Product Sans, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   color: #111;
   font-size: 36px;
@@ -78,7 +78,7 @@ padding-top:6.5rem;
 
 .sub-header h3{
   opacity: 0.77;
-  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
+  font-family: Product Sans, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   color: #111;
   font-size: 24px;
@@ -129,23 +129,31 @@ margin-top: 3rem
 }
 
 .intro-headers{
-  font-family: sf-medium, Helvetica, sans-serif; /*change the fonts*/
+  font-family: sf-medium, Helvetica, sans-serif !important; /*change the fonts*/
   color: #111;
+}
+.intro-headers h4 {
+  font-family: sf-medium, Helvetica, sans-serif !important; /*change the fonts*/
+  color: #111;
+}
+.intro-headers p {
+  font-family: sf-light, Helvetica, sans-serif !important; /*change the fonts*/
+
 }
 
 .finding-text h2{
-  font-family: sf-regular, Roboto, Helvetica; /*change the fonts*/
+  font-family: sf-regular, Roboto, Helvetica !important; /*change the fonts*/
   color: #777;
   font-size: 24px;
 }
 
 .intro-description-text{
-  font-family: sf-light, Roboto, Helvetica /*change the fonts*/
+  font-family: sf-light, Roboto, Helvetica !important;  /*change the fonts*/
   color: #999999;
 }
 
 .intro-description-text span{
-  font-family: sf-light, Roboto, Helvetica /*change the fonts*/
+  font-family: sf-light, Roboto, Helvetica !important; /*change the fonts*/
   color: #999999;
 }
 
@@ -256,7 +264,7 @@ margin-top: 6rem;
 }
 .name-holder{
   opacity: 0.77;
- font-family: sf-regular;
+ font-family: sf-regular !important;
  font-size: 14px;
  font-weight: 500;
  font-stretch: normal;
@@ -278,7 +286,7 @@ margin-top: 6rem;
 
 .section-header h2{
   opacity: 0.77;
-  font-family: Product Sans, Helvetica, sans-serif; /*change the fonts*/
+  font-family: Product Sans, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   padding-left: 55px;
   color: #111;
