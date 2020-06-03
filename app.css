@@ -149,12 +149,18 @@ margin-top: 3rem
 
 .intro-description-text{
   font-family: sf-light, Roboto, Helvetica !important;  /*change the fonts*/
-  color: #999999;
+  color: #777;
 }
 
 .intro-description-text span{
   font-family: sf-light, Roboto, Helvetica !important; /*change the fonts*/
-  color: #999999;
+  color: #777;
+}
+
+.intro-description-text p{
+  font-family: sf-light, Roboto, Helvetica !important;  /*change the fonts*/
+  color: #777;
+  font-size: 14px;
 }
 
 .paragraph-description {
@@ -163,6 +169,13 @@ margin-top: 3rem
 
 #decorator-block {
   background-color: #efefef;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#decorator-block-blue {
+  background-color: #5865CE;
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -282,6 +295,10 @@ margin-top: 6rem;
 
 #section-x-block{
   margin-top: 4rem;
+}
+
+#subsection-x-block{
+  margin-top: 0rem;
 }
 
 .section-header h2{
