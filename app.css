@@ -24,11 +24,17 @@
 }
 
 
-.rectangle{
+.rectangle, #nav-bar{
   box-shadow: 0 1px 4px 0 rgba(192, 192, 192, 0.5);
   background-color: #f8f8f8;
   height: 60px;
+  position: fixed;
+  top:0px;
+  left:0px;
+  
+  transition: transform 0.4s;
 }
+
 
 .nav-item{
   width: 35px;

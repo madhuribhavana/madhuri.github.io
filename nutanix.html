@@ -22,7 +22,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script src="scroll.js"></script>
     <!-- Add the global css file for CSS edits  -->
     <link rel="stylesheet" type="text/css" href="app.css" />
 
@@ -40,6 +40,7 @@
 
        <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143173396-1"></script>
+
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -54,7 +55,7 @@
   <body id="app-body" class="placard">
 
     <!-- Navigation bar starts -->
-    <nav id="nav-bar" class="navbar rectangle d-flex justify-content-between">
+    <nav id="nav-bar" class="navbar col-12 rectangle d-flex justify-content-between">
       <div id="logo" class="col-2">Logo</div>
 
       <div id="nav-items" class="col-3 d-flex justify-content-between">
@@ -71,35 +72,22 @@
     <!-- Navigation bar ends  -->
 
     <!-- Header -->
+
     <div id="summary-block" class="row d-flex align-items-center flex-column">
-      <div id="header-block" class="container-fluid">
+
+    <div id="header-block" class="container-fluid">
         <div class="main-header row d-flex justify-content-center"><h5>NUTANIX, INVISIBLE INFRASTRUCTURE</h5></div>
         <div class="sub-header row d-flex justify-content-center"><h1 class="col-6">Re-designing the Virtual Machine Creation Flow</h1></div>
     </div>
 
-
     <!-- Introduction Image -->
-
     <div id="feature-block" class="row col-7 container-fluid feature-block d-flex justify-content-around">
-      <img src='nutanix/n0.png' alt = "project-image.png" width= 100%>
-
-<!--
-          <div id="feature-list" class="col-4 d-flex align-items-start flex-column">
-            <div class="features"></div>
-
-            <div class="feature-description">
-              <span class="feature-descrption-text"> Add intro text
-              </span>
-            </div>
-          </div>
-
-          <div id="image-block" class="col-4"><img src='' alt = "project-image.png"/></div> -->
-
-   </div>
+      <img src='nutanix/n0.png' alt = "project-image.png" width= 100%/>
+    </div>
 
 
-<!-- Background, Role, Method  -->
-      <div id="background-role-block" class="row col-7 container-fluid d-flex justify-content-around">
+    <!-- Background, Role, Method  -->
+    <div id="background-role-block" class="row col-7 container-fluid d-flex justify-content-around">
           <div id="background-block" class="col-7">
               <div class="intro-headers">
                 <h6><b>👉&nbsp;&nbsp; CONTEXT</b></h6>
@@ -111,7 +99,7 @@
                 </span>
               </div>
 
-              <img src='nutanix/n1.png' alt = "project-image.png" class='full-image-center'>
+              <img src='nutanix/n1.png' alt = "project-image.png" class='full-image-center'/>
           </div>
 
           <div id="role-duration-block" class="col-4">
@@ -135,23 +123,19 @@
                 </div>
               </div>
           </div>
-      </div>
+    </div>
 
 
-<!-- Full Width Block -->
-      <div id="decorator-block" class="container-fluid">
-        <img src='nutanix/n2.png' alt = "project-image.png" width = '80%' class='full-image-center'>
-      </div>
-
-</div>
+    <!-- Full Width Block -->
+    <div id="decorator-block" class="container-fluid">
+        <img src='nutanix/n2.png' alt = "project-image.png" width = '80%' class='full-image-center'/>
+</div></div>
 
 
-<!-- <div class ="row col-12 container d-flex align-items-start justify-content-center ">
-  <div class="col-10 content-holder"></div>
-</div> -->
 
-<!--- Section X ----->
-<div id="summary-block" class="row d-flex align-items-center flex-column">
+
+    <!--- Section X ----->
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
     <div class="row container-fluid d-flex align-items-start justify-content-start">
                 <div class="section-header col-4">
                   <h2>Goals</h2>
@@ -196,7 +180,7 @@
 
 
 
-<div id="section-x-block" class="row col-12 container-fluid d-flex justify-content-center">
+    <div id="section-x-block" class="row col-12 container-fluid d-flex justify-content-center">
   <div class="col-9">
   <!-- The user sub heading -->
         <div class="process">
@@ -206,8 +190,8 @@
 </div>
 
 
-<!--- Section X ----->
-<div id="summary-block" class="row d-flex align-items-center flex-column">
+    <!--- Section X ----->
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
     <div class="row container-fluid d-flex align-items-start justify-content-start">
                 <div class="section-header col-4">
                   <h2>Research</h2>
@@ -240,8 +224,8 @@
 
 
 
-<!--- Section X ----->
-<div id="summary-block" class="row d-flex align-items-center flex-column">
+    <!--- Section X ----->
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
     <div class="row container-fluid d-flex align-items-start justify-content-start">
                 <div class="section-header col-4">
                   <h2>Top Findings</h2>
@@ -255,16 +239,15 @@
 
     <div id="section-x-block" class="row col-10 container d-flex align-items-start justify-content-between">
             <div class="col-3 text-box">
-              <div class="text-box-inner d-flex align-items-center flex-column justify-content-between"><div class="intro-headers">
-                <h5>User Types</h5>
+              <div class="text-box-inner d-flex align-items-center flex-column justify-content-between">
+                <div class="intro-headers"><h5>User Types</h5></div>
+                <p class="intro-description-text"> Four user types were identified from user research based on VM creation goals and user tasks.</p>
               </div>
-              <p class="intro-description-text"> Four user types were identified from user research based on VM creation goals and user tasks.</p>
             </div>
-          </div>
 
             <div class="col-9 text-box-inside">
                   <div class="process">
-                    <img src='nutanix/n3.png' alt = "project-image.png" class='process-image-no-text'>
+                    <img src='nutanix/n3.png' alt = "project-image.png" class='process-image-no-text'/>
                   </div>
             </div>
     </div>
@@ -273,7 +256,7 @@
     <div id="subsection-x-block" class="row col-12 container d-flex align-items-start justify-content-center">
             <div class="col-11 text-box-inside">
                   <div class="process">
-                    <img src='nutanix/n7_1.png' alt = "project-image.png" class='process-image-no-text'>
+                    <img src='nutanix/n7_1.png' alt = "project-image.png" class='process-image-no-text'/>
                   </div>
             </div>
     </div>
@@ -281,50 +264,52 @@
 </div>
 
 
-<!-- Full Width Block -->
-        <div id="decorator-block-blue" class="container-fluid">
-            <img src='nutanix/n6.png' alt = "project-image.png" width = '80%' class='full-image-center'>
-        </div>
+    <!-- Full Width Block -->
+    <div id="decorator-block-blue" class="container-fluid">
+            <img src='nutanix/n6.png' alt = "project-image.png" width = '80%' class='full-image-center'/>
+    </div>
 
 
 
-<!--- Section X ----->
-<div id="summary-block" class="row d-flex align-items-center flex-column">
-    <div class="row container-fluid d-flex align-items-start justify-content-start">
+    <!--- Section X ----->
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
+        <div class="row container-fluid d-flex align-items-start justify-content-start">
                 <div class="section-header col-5">
                   <h2>Concept and Design</h2>
                 </div>
-
-                <!-- <div class="section-header col-6">
-                </div> -->
     </div>
 
-    <div class = "horizontal-bar col-10">
+        <div class = "horizontal-bar col-10">
       <hr/>
     </div>
 
-    <div id="section-x-block" class="row col-10 container d-flex align-items-start justify-content-between">
-            <div class="col-3 text-box">
+        <div id="section-x-block" class="row col-10 container d-flex align-items-start justify-content-between">
+      <div class="col-3 text-box">
               <div class="text-box-inner d-flex align-items-center flex-column justify-content-between"><div class="intro-headers">
                 <h4>Concept Generation</h4>
               </div>
               <p> Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable. Trees delay fancy noise manor do as an small. Felicity now law securing breeding likewise extended and. Roused either who favour why ham. </p>
-            </div></div>
-
-            <div class="col-9 text-box-inside">
-                  <div class="process">
-                    <img src='nutanix/n10.png' alt = "project-image.png" class='process-image-no-text'>
-                  </div>
             </div>
     </div>
 
+        <div class="col-9 text-box-inside">
+      <div class="process">
+        <img src='nutanix/n10.png' alt = "project-image.png" class='process-image-no-text'/>
+      </div>
+    </div>
+  </div>
+
     <div id="section-x-block" class="row col-10 container d-flex align-items-start justify-content-between">
             <div class="col-3 text-box">
-              <div class="text-box-inner d-flex align-items-center flex-column justify-content-between"><div class="intro-headers">
-                <h4>Proposed User flows</h4>
+              <div class="text-box-inner d-flex align-items-center flex-column justify-content-between">
+                <div class="intro-headers">
+                  <h4>Proposed User flows</h4>
+                </div>
+              <p> 
+                Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable. Trees delay fancy noise manor do as an small. Felicity now law securing breeding likewise extended and. Roused either who favour why ham.
+              </p>
               </div>
-              <p> Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable. Trees delay fancy noise manor do as an small. Felicity now law securing breeding likewise extended and. Roused either who favour why ham. </p>
-            </div></div>
+          </div>
 
             <div class="col-9 text-box-inside">
                   <div class="process">
@@ -335,14 +320,14 @@
 
 </div>
 
-<!-- Design Guidelines -->
+    <!-- Design Guidelines -->
     <div id="decorator-block" class="container-fluid">
       <img src='nutanix/n8.png' alt = "project-image.png" width = '80%' class='full-image-center'>
     </div>
 
 
-<!--- Section X ----->
-<div id="summary-block" class="row d-flex align-items-center flex-column">
+    <!--- Section X ----->
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
     <div class="row container-fluid d-flex align-items-start justify-content-start">
                 <div class="section-header col-4">
                   <h2> Prototyping</h2>
@@ -404,8 +389,8 @@
 </div>
 
 
-<!--- Section X -->
-<div id="summary-block" class="row d-flex align-items-center flex-column">
+    <!--- Section X -->
+    <div id="summary-block" class="row d-flex align-items-center flex-column">
     <div class="row container-fluid d-flex align-items-start justify-content-start">
                 <div class="section-header col-5">
                   <h2>Results and learnings</h2>
