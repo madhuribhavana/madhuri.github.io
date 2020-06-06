@@ -244,7 +244,7 @@ margin-top: 6rem;
 
 }
 #footer-block {
-  height: 265px;
+  height: 30rem;
   background-color: #ececec;
 }
 .next-page{
@@ -292,7 +292,7 @@ margin-top: 6rem;
 .name-holder{
   opacity: 0.77;
  font-family: product-sans-regular !important;
- font-size: 14px;
+ font-size: 19px;
  font-weight: 500;
  font-stretch: normal;
  font-style: normal;
@@ -341,4 +341,8 @@ margin-top: 6rem;
 
 #summary-block{
   margin-top: 6rem;
+}
+
+.footer-inner-block {
+
 }
