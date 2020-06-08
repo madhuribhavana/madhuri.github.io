@@ -72,7 +72,7 @@ padding-top:6.5rem;
 .sub-heading {
   opacity: 0.77;
   font-family: sf-medium, Roboto, Helvetica !important;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -244,7 +244,7 @@ margin-top: 6rem;
 
 }
 #footer-block {
-  height: 30rem;
+  height: 24rem;
   background-color: #ececec;
 }
 .next-page{
