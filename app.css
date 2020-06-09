@@ -246,6 +246,8 @@ margin-top: 6rem;
 #footer-block {
   height: 24rem;
   background-color: #ececec;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .next-page{
   opacity: 0.77;
@@ -345,5 +347,5 @@ margin-top: 6rem;
 }
 
 .footer-inner-block {
-
+padding-right: 0px;
 }
