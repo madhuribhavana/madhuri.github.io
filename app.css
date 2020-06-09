@@ -346,6 +346,9 @@ margin-top: 6rem;
   margin-top: 6rem;
 }
 
-.footer-inner-block {
-padding-right: 0px;
+.icon i :hover{
+  color: #4285f4!important;
+}
+.heart i :hover{
+  color: #cc7474!important;
 }
