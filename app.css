@@ -273,9 +273,7 @@ margin-top: 6rem;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  padding-top: 5px;
   color: #919191;
-
 }
 
 .footer-name-holder{
@@ -290,14 +288,12 @@ margin-top: 6rem;
 .oval-holder li {
  float:left;
 }
-
 .icon{
   height: 2rem;
   width:2rem;
 }
-
 .name-holder{
- opacity: 0.77;
+  opacity: 0.77;
  font-family: product-sans-regular !important;
  font-size: 19px;
  font-weight: 500;
@@ -355,8 +351,4 @@ margin-top: 6rem;
 }
 .heart i :hover{
   color: #cc7474!important;
-}
-
-.link-holder {
-  margin-top: 1rem;
 }
