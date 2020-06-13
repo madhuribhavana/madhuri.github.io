@@ -11,27 +11,27 @@
 
 @font-face {
   font-family: sf-regular;
-  src: url("./font/SF-Pro-Text-Regular.otf");
+  src: url("../font/SF-Pro-Text-Regular.otf");
 }
 
 @font-face {
   font-family: sf-light;
-  src: url("./font/SF-Pro-Text-Light.otf");
+  src: url("../font/SF-Pro-Text-Light.otf");
 }
 
 @font-face {
   font-family: sf-bold;
-  src: url("./font/SF-Pro-Text-Bold.otf");
+  src: url("../font/SF-Pro-Text-Bold.otf");
 }
 
 @font-face {
   font-family: product-sans-regular;
-  src: url("./font/ProductSans-Regular.ttf");
+  src: url("../font/ProductSans-Regular.ttf");
 }
 
 @font-face {
   font-family: sf-medium;
-  src: url("./font/SF-Pro-Text-Medium.otf");
+  src: url("../font/SF-Pro-Text-Medium.otf");
 }
 
 
@@ -55,7 +55,7 @@
 }
 
 body {
-	font-family: 'sf-regular', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'sf-light', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	background-color: #FFFFFF;
 }
@@ -90,7 +90,7 @@ p {
 	line-height: 26px;
 	margin-bottom: 24px;
 	color: #4B4F56;
-  font-family: sf-regular;
+  font-family: sf-light;
 }
 
 strong {
@@ -542,9 +542,10 @@ body #nav {
 
 .card-tag {
 	background: #4080FF;
-padding-left: 10px;
+padding-left: 9px;
 padding-right: 10px;
 margin-bottom: 20px;
+margin-left: 4px;
 border-radius: 70px;
 font-weight: 700;
 color: white;
