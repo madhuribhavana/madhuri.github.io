@@ -23,78 +23,43 @@
   src: url("./font/SF-Pro-Text-Medium.otf");
 }
 
-body #nav-bar {
-	position: fixed;
-	height: 66px;
-	padding-top: 2px;
-}
 
-
-#nav-bar{
+.rectangle, #nav-bar{
   box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
-	position: fixed;
-	background-color: rgba(255,255,255,.98);
-	-webkit-backdrop-filter: blur(20px);
-	z-index: 9999;
-	padding: 0px 0px 0px 24px;
-	position: absolute;
-	top: 0;
-	width: 100%;
+  background-color: rgba(255,255,255,.98);
+  height: 60px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  font-family: product-sans-regular;
+  padding-top: 21px;
+  padding-bottom: 0px
+  transition: transform 0.4s;
 }
-@supports (-webkit-backdrop-filter: none) { #nav { background-color: rgba(255, 255, 255, .85); } }
 
 
-#nav-bar div.nav-item, #nav-bar div.logo {
-  line-height: 62px;
-	display: inline-block;
-	vertical-align: top;
+.nav-item{
+  width: 35px;
+  height: 39px;
+  opacity: 0.77;
+  font-family: sf-medium, Helvetica, sans-serif !important;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #555;
+  display: block;
+
 }
 .first-item{
     box-shadow: 0px 2px #4080FF;
 }
 
-#nav-bar div.logo {
-	background-image: url('logom.png');
-	background-size: 40px 32px;
-	background-repeat: no-repeat;
-	background-position: left center;
-	color: #90949C;
-	float: left;
-	padding: 0 0 0 42px;
-	font-weight: 200;
-	font-size: 18px;
-
-}
-
-#nav-bar div.logo:hover {
-	opacity: .7;s
-}
-
-#nav div.nav-item {
-	/*font-weight: 800;*/
-  font-family: 'Catamaran-Regular';
-	font-size: 16px;
-	text-transform: uppercase;
-	margin: 0px 32px 0 0;
-	color:#90949C;
-	-webkit-user-select: none;
-}
-#nav div.nav-item a {
-	font-weight: inherit;
-	display: block;
-  letter-spacing: 0.5px;
-}
-
-#nav div.item a:hover {
-	opacity: .7;
-}
-#nav div.item.current {
-	color: #4B4F56;
-	box-shadow: 0px 2px #4080FF;
-}
-
-#nav div.item.current:hover {
-	opacity: 1;
+#logo {
+font-size: 64px;
 }
 
 #header-block {
