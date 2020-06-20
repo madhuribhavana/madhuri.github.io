@@ -199,6 +199,13 @@ margin-top: 3rem
   margin-bottom: 2rem;
 }
 
+#decorator-block-black {
+  background-color: #3C3C3C;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
 .full-image-center{
   display:block;
   margin-left:Auto;
