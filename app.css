@@ -464,3 +464,12 @@ div.rotate-text-1 {
 .card-container {
   margin-top: 4rem;
 }
+.card {
+  margin-right: 2rem;
+}
+.horizontal-line {
+  width: 69rem;
+}
+.projects-container {
+  margin-bottom: 5rem;
+}
