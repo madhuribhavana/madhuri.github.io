@@ -460,3 +460,7 @@ div.rotate-text-1 {
 .blue-font {
   color: #5050bd;
 }
+
+.card-container {
+  margin-top: 4rem;
+}
