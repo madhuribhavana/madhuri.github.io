@@ -434,3 +434,29 @@ div.rotate-text-1 {
     top: 200px;
   }
 }
+.hi-Namaste {
+  font-family: SFMono;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.22;
+  letter-spacing: normal;
+  color: #999999;
+}
+
+.name-block {
+  width: 319px;
+  height: 40px;
+  font-family: ProductSans;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #777777;
+}
+.blue-font {
+  color: #5050bd;
+}
