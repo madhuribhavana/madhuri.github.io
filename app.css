@@ -480,10 +480,10 @@ div.rotate-text-1 {
 .projects-container {
   margin-bottom: 5rem;
 }
-.role-blocl {
+.role-block {
   width: 365px;
   height: 40px;
-  font-family: ProductSans;
+  font-family: product-sans-regular;
   font-size: 36px;
   font-weight: normal;
   font-stretch: normal;
@@ -491,4 +491,8 @@ div.rotate-text-1 {
   line-height: 1.11;
   letter-spacing: normal;
   color: #999999;
+}
+div.badge-block span {
+  font-family: product-sans-regular;
+  font-size: 16px;
 }
