@@ -496,6 +496,10 @@ div.rotate-text-1 {
   margin-right: 2rem;
   height: 27rem;
 }
+.card:hover {
+  transform: translate(0, -20px);
+  transition-delay: 0s !important;
+}
 .card-footer {
   background-color: white;
   border: none;
@@ -511,7 +515,7 @@ div.rotate-text-1 {
 
 div.badge-block span {
   font-family: sf-light;
-
+  font-size: 11px;
   text-transform: uppercase;
   align-items: flex-end;
   margin: 3rem 0.5rem 0 0;
