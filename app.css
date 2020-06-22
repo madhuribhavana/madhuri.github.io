@@ -207,7 +207,7 @@
   margin-bottom: 2rem;
 }
 
-.decorator-block-light-grey{
+.decorator-block-light-grey {
   background-color: #cdcdcd;
   width: 100%;
   margin-top: 3rem;
@@ -511,7 +511,7 @@ div.rotate-text-1 {
 
 div.badge-block span {
   font-family: sf-light;
-  font-size: 11px;
+
   text-transform: uppercase;
   align-items: flex-end;
   margin: 3rem 0.5rem 0 0;
