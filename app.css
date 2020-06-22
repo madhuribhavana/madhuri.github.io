@@ -48,7 +48,7 @@
   width: 35px;
   height: 39px;
   opacity: 0.77;
-  font-family: sf-medium, Helvetica, sans-serif !important;
+  font-family: sf-light, Helvetica, sans-serif !important;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -424,6 +424,13 @@
   transform: translate(-50%, -50%);
   height: 6rem;
 } */
+
+.projects-container-header h2 {
+  font-family: product-sans-regular;
+}
+.projects-container-header p {
+  font-family: sf-light;
+}
 
 .introduction-block-image {
   border-radius: 10px;
