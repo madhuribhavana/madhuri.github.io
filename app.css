@@ -410,10 +410,10 @@
 .card .is-shownIfHover {
   display: none !important;
 }
-
+/* Change here */
 #introduction-block {
   margin-top: 17rem;
-  margin-bottom: 20rem;
+  margin-bottom: 12rem;
   height: 16rem;
 }
 .introduction-block-description {
