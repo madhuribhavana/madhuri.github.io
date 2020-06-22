@@ -22,7 +22,14 @@
   font-family: sf-medium;
   src: url("./font/SF-Pro-Text-Medium.otf");
 }
-
+@font-face {
+  font-family: sf-mono-regular;
+  src: url("./font/SF-Mono-Regular.otf");
+}
+@font-face {
+  font-family: sf-medium;
+  src: url("./font/SF-Mono-Light.otf");
+}
 .rectangle,
 #nav-bar {
   box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
@@ -435,7 +442,7 @@ div.rotate-text-1 {
   }
 }
 .hi-Namaste {
-  font-family: SFMono;
+  font-family: sf-mono-regular;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -448,7 +455,7 @@ div.rotate-text-1 {
 .name-block {
   width: 319px;
   height: 40px;
-  font-family: ProductSans;
+  font-family: product-sans-regular;
   font-size: 21px;
   font-weight: normal;
   font-stretch: normal;
@@ -472,4 +479,16 @@ div.rotate-text-1 {
 }
 .projects-container {
   margin-bottom: 5rem;
+}
+.role-blocl {
+  width: 365px;
+  height: 40px;
+  font-family: ProductSans;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #999999;
 }
