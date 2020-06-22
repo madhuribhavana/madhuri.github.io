@@ -487,6 +487,13 @@ div.rotate-text-1 {
 }
 .card {
   margin-right: 2rem;
+  height: 27rem;
+}
+.card-footer {
+  background-color: white;
+  border: none;
+  padding-bottom: 1.5rem;
+  padding-top: 0.5rem;
 }
 .horizontal-line {
   width: 69rem;
@@ -496,6 +503,12 @@ div.rotate-text-1 {
 }
 
 div.badge-block span {
-  font-family: product-sans-regular;
-  font-size: 16px;
+  font-family: sf-light;
+  font-size: 11px;
+  text-transform: uppercase;
+  align-items: flex-end;
+  margin: 3rem 0.5rem 0 0;
+}
+.badge {
+  padding: 0.5rem;
 }
