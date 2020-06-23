@@ -535,24 +535,19 @@ div.badge-block span {
   align-items: flex-end;
   margin: 3rem 0.5rem 0 0;
 }
-
 .badge {
   padding: 0.5rem;
 }
-
 .namaste-footer {
   margin-left: 16rem;
 }
-
 h5.card-title {
   font-family: sf-regular;
 }
-
-.card-text p {
+p.card-text {
   font-family: sf-light;
-  color: #555!important;
+  color: #555;
 }
-
 .namaste-footer div {
   font-family: product-sans-regular;
 }
