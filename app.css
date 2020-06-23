@@ -540,3 +540,9 @@ div.badge-block span {
 .badge {
   padding: 0.5rem;
 }
+.namaste-footer {
+  margin-left: 16rem;
+}
+.namaste-footer div {
+  font-family: product-sans-regular;
+}
