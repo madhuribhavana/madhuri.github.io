@@ -27,7 +27,7 @@
   src: url("./font/SF-Mono-Regular.otf");
 }
 @font-face {
-  font-family: sf-medium;
+  font-family: sf-mono-light;
   src: url("./font/SF-Mono-Light.otf");
 }
 .rectangle,
@@ -514,6 +514,7 @@ div.rotate-text-1 {
   transform: translate(0, -20px);
   transition-delay: 0s !important;
 }
+
 .card-footer {
   background-color: white;
   border: none;
@@ -539,6 +540,12 @@ div.badge-block span {
 }
 .namaste-footer {
   margin-left: 16rem;
+}
+h5.card-title {
+  font-family: sf-regular;
+}
+.card-text p {
+  font-family: sf-light;
 }
 .namaste-footer div {
   font-family: product-sans-regular;
