@@ -467,9 +467,8 @@ div.rotate-text-1 {
   color: #999999;
 }
 
-
 .name-block {
-  width: 319px;
+  width: 26rem;
   height: 28px;
   font-family: product-sans-regular;
   margin: -1rem 0 0 0;
@@ -481,7 +480,6 @@ div.rotate-text-1 {
   letter-spacing: normal;
   color: #777777;
 }
-
 
 .job-block {
   width: 36.5rem;
@@ -496,7 +494,6 @@ div.rotate-text-1 {
   letter-spacing: normal;
   color: #777777;
 }
-
 
 .blue-font {
   color: #5050bd;
