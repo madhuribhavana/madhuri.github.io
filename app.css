@@ -455,6 +455,7 @@ div.rotate-text-1 {
     top: 200px;
   }
 }
+
 .hi-Namaste {
   font-family: sf-mono-regular;
   font-size: 24px;
@@ -466,12 +467,13 @@ div.rotate-text-1 {
   color: #999999;
 }
 
+
 .name-block {
   width: 319px;
   height: 28px;
   font-family: product-sans-regular;
   margin: -1rem 0 0 0;
-  font-size: 31px;
+  font-size: 28px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -479,11 +481,13 @@ div.rotate-text-1 {
   letter-spacing: normal;
   color: #777777;
 }
+
+
 .job-block {
   width: 36.5rem;
   height: 40px;
   font-family: product-sans-regular;
-  font-size: 51px;
+  font-size: 48px;
   margin: 3rem 0 0 0;
   font-weight: normal;
   font-stretch: normal;
@@ -492,8 +496,14 @@ div.rotate-text-1 {
   letter-spacing: normal;
   color: #777777;
 }
+
+
 .blue-font {
   color: #5050bd;
+}
+
+.black-font {
+  color: #393939;
 }
 
 .card-container {
