@@ -544,8 +544,9 @@ div.badge-block span {
 h5.card-title {
   font-family: sf-regular;
 }
-.card-text p {
+p.card-text {
   font-family: sf-light;
+  color: #555;
 }
 .namaste-footer div {
   font-family: product-sans-regular;
