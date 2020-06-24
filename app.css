@@ -457,7 +457,7 @@ div.rotate-text-1 {
 }
 
 .hi-Namaste {
-  font-family: sf-mono-regular;
+  font-family: sf-medium;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -470,7 +470,7 @@ div.rotate-text-1 {
 .name-block {
   width: 26rem;
   height: 28px;
-  font-family: product-sans-regular;
+  font-family: sf-medium;
   margin: -1rem 0 0 0;
   font-size: 28px;
   font-weight: normal;
