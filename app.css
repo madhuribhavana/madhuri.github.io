@@ -511,8 +511,9 @@ div.rotate-text-1 {
   height: 27rem;
 }
 .card:hover {
-  transform: translate(0, -20px);
+  transform: translate(0, -10px);
   transition-delay: 0s !important;
+  box-shadow: 0 0 5px rgba(33,33,33,.2);
 }
 
 .card-footer {
