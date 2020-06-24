@@ -513,6 +513,7 @@ div.rotate-text-1 {
 .card:hover {
   transform: translate(0, -20px);
   transition-delay: 0s !important;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 .card-footer {
@@ -535,19 +536,24 @@ div.badge-block span {
   align-items: flex-end;
   margin: 3rem 0.5rem 0 0;
 }
+
 .badge {
   padding: 0.5rem;
 }
+
 .namaste-footer {
   margin-left: 16rem;
 }
+
 h5.card-title {
   font-family: sf-regular;
 }
-p.card-text {
+
+.card-text p {
   font-family: sf-light;
-  color: #555;
+  color: #555 !important;
 }
+
 .namaste-footer div {
   font-family: product-sans-regular;
 }
