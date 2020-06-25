@@ -553,3 +553,19 @@ p.card-text {
 .footer-namaste-block {
   font-family: product-sans-regular;
 }
+
+.card-container a {
+  text-decoration: none;
+}
+a.page-link {
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+.page-link:hover {
+  border: none;
+  color: black;
+  text-decoration: none;
+  shadow: none;
+  background-color: white;
+}
