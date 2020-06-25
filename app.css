@@ -486,7 +486,7 @@ div.rotate-text-1 {
   height: 40px;
   font-family: product-sans-regular;
   font-size: 48px;
-  margin: 3rem 0 0 0;
+  margin: 14rem 0 0 0;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -513,7 +513,7 @@ div.rotate-text-1 {
 .card:hover {
   transform: translate(0, -10px);
   transition-delay: 0s !important;
-  box-shadow: 0 0 5px rgba(33,33,33,.2);
+  box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
 }
 
 .card-footer {
