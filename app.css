@@ -554,6 +554,10 @@ p.card-text {
   font-family: product-sans-regular;
   font-size: 2rem
 }
+.footer-chat-block {
+  font-family: product-sans-regular;
+  font-size: 1.5rem
+}
 
 .card-container a {
   text-decoration: none;
