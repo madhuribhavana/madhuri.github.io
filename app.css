@@ -540,7 +540,7 @@ div.badge-block span {
   padding: 0.5rem;
 }
 .namaste-footer {
-  margin-left: 16rem;
+  margin-left: 9rem;
 }
 h5.card-title {
   font-family: sf-regular;
@@ -552,6 +552,7 @@ p.card-text {
 
 .footer-namaste-block {
   font-family: product-sans-regular;
+  font-size: 2rem
 }
 
 .card-container a {
