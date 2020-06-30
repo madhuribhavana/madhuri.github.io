@@ -458,6 +458,7 @@ div.rotate-text-1 {
 
 .hi-Namaste {
   font-family: sf-medium;
+  padding-left: 0.5rem !important;
   font-size: 21px;
   font-weight: normal;
   font-stretch: normal;
