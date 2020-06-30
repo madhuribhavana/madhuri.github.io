@@ -142,7 +142,8 @@
 }
 
 #background-role-block {
-  margin-top: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 #background-block {
   padding-left: 0;
@@ -484,12 +485,12 @@ div.rotate-text-1 {
 .name-block-2 {
   width: 30rem;
   height: 28px;
-  font-family: sf-medium;
+  font-family: sf-light;
   font-size: 21px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.2;
+  line-height: 1.8;
   letter-spacing: normal;
   color: #999999;
   margin: 6rem 0 0 0;
