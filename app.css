@@ -472,7 +472,6 @@ div.rotate-text-1 {
   width: 36rem;
   height: 28px;
   font-family: sf-medium;
-  margin: 3rem 0 0 0;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -480,6 +479,20 @@ div.rotate-text-1 {
   line-height: 1.9;
   letter-spacing: normal;
   color: #777777;
+  margin: -1rem 0 0 0;
+}
+.name-block-2 {
+  width: 36rem;
+  height: 28px;
+  font-family: sf-medium;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: normal;
+  color: #777777;
+  margin: 3rem 0 0 0;
 }
 
 .job-block {
