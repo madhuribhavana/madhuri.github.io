@@ -507,7 +507,7 @@ div.rotate-text-1 {
   margin-top: 4rem;
 }
 .card {
-  margin-right: 2rem;
+  margin-right: 0rem;
   height: 27rem;
 }
 .card:hover {
@@ -552,11 +552,11 @@ p.card-text {
 
 .footer-namaste-block {
   font-family: product-sans-regular;
-  font-size: 2rem
+  font-size: 2rem;
 }
 .footer-chat-block {
   font-family: product-sans-regular;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .card-container a {
