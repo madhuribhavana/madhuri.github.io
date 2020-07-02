@@ -173,6 +173,11 @@
   color: #777;
 }
 
+.intro-description-text b{
+  font-family: sf-bold, Roboto, Helvetica !important; /*change the fonts*/
+  color: #333;
+}
+
 .intro-description-text span {
   font-family: sf-light, Roboto, Helvetica !important; /*change the fonts*/
   color: #777;
@@ -217,6 +222,14 @@
 }
 
 .full-image-center {
+  display: block;
+  margin-left: Auto;
+  margin-right: auto;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+.full-image-center-nohighlight {
   display: block;
   margin-left: Auto;
   margin-right: auto;
@@ -353,8 +366,10 @@
 }
 
 .text-box {
-  background-color: #ececec;
+  background-color: #f2f2f2;
 }
+
+
 .text-box-inner {
   padding: 30px 12px 12px 12px;
 }
@@ -438,8 +453,8 @@
   border-radius: 10px;
 }
 .introduction-block-image img {
-  width: 30rem;
-  height: 18rem;
+  width: 24rem;
+  height: 24rem;
 }
 div.rotate-text-1 {
   width: 100px;
@@ -525,9 +540,10 @@ div.rotate-text-1 {
 .card {
   margin-right: 0rem;
   height: 27rem;
+  border-color: #e9e9e9;
 }
 .card:hover {
-  transform: translate(0, -10px);
+  transform: translate(0, -5px);
   transition-delay: 0s !important;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
 }
@@ -568,15 +584,18 @@ h5.card-title {
 p.card-text {
   font-family: sf-light;
   color: #555;
+  line-height: 1.5rem;
 }
 
 .footer-namaste-block {
   font-family: product-sans-regular;
   font-size: 2rem;
+  color: #000;
 }
+
 .footer-chat-block {
-  font-family: product-sans-regular;
-  font-size: 1.5rem;
+  font-family: sf-light;
+  font-size: 1.4rem;
 }
 
 .card-container a {
