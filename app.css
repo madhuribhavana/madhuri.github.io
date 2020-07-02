@@ -218,6 +218,13 @@
   margin-bottom: 2rem;
 }
 
+#decorator-block-white {
+  background-color: #fff;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
 .decorator-block-light-grey {
   background-color: #cdcdcd;
   width: 100%;
@@ -239,6 +246,16 @@
   margin-right: auto;
   padding: 0rem;
   width: 100%;
+  background-color: #fff;
+}
+
+.half-image-center-nohighlight {
+  display: block;
+  margin-left: Auto;
+  margin-right: auto;
+  padding: 0rem;
+  width: 80%;
+  background-color: #fff;
 }
 
 .process {
