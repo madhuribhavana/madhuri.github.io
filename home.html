@@ -106,7 +106,7 @@
         id="nav-items"
         class="col-9 d-flex justify-content-end align-items-stretch"
       >
-        <div class="first-item nav-item col-1"><a href="#">Work</a></div>
+        <div class="first-item nav-item col-1"><a href="#workblock">Work</a></div>
         <!-- <div class="nav-item col-1"><a href="#"><span class="nav-item col-1">About</span></a>
         </div> -->
         <div class="nav-item col-1">
@@ -115,7 +115,7 @@
           >
         </div>
         <div class="nav-item col-1">
-          <a href="#"><span class="nav-item col-1">Contact</span></a>
+          <a href="#contactblock"><span class="nav-item col-1">Contact</span></a>
         </div>
         <div class="nav-item col-1">
           <a href="#"><span class="nav-item col-1"></span></a>
@@ -126,13 +126,8 @@
     <!-- Navigation bar ends  -->
 
     <!-- Introduction -->
-    <div
-      id="introduction-block"
-      class="introduction container d-flex justify-content-center"
-    >
-      <div
-        class="introduction-block-description col-7 d-flex align-items-start flex-column"
-      >
+    <div id="introduction-block" class="introduction container d-flex justify-content-center">
+      <div class="introduction-block-description col-7 d-flex align-items-start flex-column">
         <div class="p-3 hi-Namaste">Hi! Namaste! 👋</div>
         <div class="p-2 name-block">
           <span class="last-name black-font">I am Bhavana, a UXer.</span><br />
@@ -155,7 +150,7 @@
 
     <div class="container card-group projects-container project-1">
       <div class="projects-container-header">
-        <h2>
+        <a name="workblock"><h2>
           UX work I Shipped + Projects
           <strong style="color: #4080ff; font-size: 48px;">.</strong>
           <p style="font-size: 20px; margin-bottom: -30px;">
@@ -164,6 +159,7 @@
           <br />
           <hr class="horizontal-line" />
         </h2>
+      </a>
       </div>
 
 <!-- AdMob -->
@@ -237,7 +233,7 @@
 <!-- Google glass -->
       <div class="card-container d-flex justify-content-around">
 
-        <a class="page-link" href="amazon.html">
+        <a class="page-link" href="glass.html">
           <div class="card">
             <img
               class="card-img-top"
@@ -387,16 +383,16 @@
     </div>
 
     <!-- Footer  -->
-    <footer
-      id="footer-block"
-      class="container-fluid row col-12 d-flex align-self-end"
-    >
+<a name="contactblock">
+    <footer id="footer-block" class="container-fluid row col-12 d-flex align-self-end">
       <div class="footer-inner-block align-self-end row col-12">
         <div class="row col-12 d-flex footer-place-holder">
           <div class="place-holder namaste-footer">
+
             <span class="ml-auto p-3 hi-Namaste footer-namaste-block">
               🖖&nbsp;&nbsp; Let's chat more! <br />
             </span>
+
             <span class="ml-auto p-3 hi-Namaste footer-chat-block"
               >&nbsp;Ping me to talk about design, hiking or anime over
               Chai.</span
@@ -404,13 +400,10 @@
           </div>
         </div>
 
-        <div
-          class="row col-12 footer-name-holder d-flex justify-content-around"
-        >
+        <div class="row col-12 footer-name-holder d-flex justify-content-around">
           <div class="col-3 footer-name">
             <span class="name-holder">
-              <i class="fa fa-copyright"> </i>&nbsp Madhuri Bhavana</span
-            >
+              <i class="fa fa-copyright"> </i>&nbsp Madhuri Bhavana</span>
           </div>
 
           <div class="col-3 oval-holder">
@@ -444,5 +437,8 @@
         </div>
       </div>
     </footer>
+</a>
+
+<!-- End of contact and footer blocks -->
   </body>
 </html>
