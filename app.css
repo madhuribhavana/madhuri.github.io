@@ -59,10 +59,6 @@
   color: #555;
   display: block;
 }
-.nav-item a:hover {
-  text-decoration: none;
-  color: #333;
-}
 .first-item {
   box-shadow: 0px 2px #4080ff;
 }
@@ -177,7 +173,7 @@
   color: #777;
 }
 
-.intro-description-text b {
+.intro-description-text b{
   font-family: sf-bold, Roboto, Helvetica !important; /*change the fonts*/
   color: #333;
 }
@@ -281,7 +277,7 @@
   margin-top: 6rem;
 }
 #footer-block {
-  height: 30rem;
+  height: 24rem;
   background-color: #ececec;
   margin-left: 0px;
   margin-right: 0px;
@@ -299,8 +295,8 @@
 }
 
 .footer-place-holder {
-  padding-top: 0rem;
-  padding-bottom: 12rem;
+  padding-top: 3rem;
+  padding-right: 6rem;
 }
 
 .place-holder {
@@ -317,6 +313,8 @@
 }
 
 .footer-name-holder {
+  margin-top: 9rem;
+  margin-bottom: 2rem;
 }
 
 .oval-holder ul {
@@ -370,6 +368,7 @@
 .text-box {
   background-color: #f2f2f2;
 }
+
 
 .text-box-inner {
   padding: 30px 12px 12px 12px;

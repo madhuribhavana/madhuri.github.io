@@ -90,12 +90,6 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="switch.js"></script>
-
-    <script>
-      $(".nav-item").click(function () {
-        $(".nav-item").addClass("first-item");
-      });
-    </script>
   </head>
 
   <body id="app-body" class="placard">
@@ -112,20 +106,16 @@
         id="nav-items"
         class="col-9 d-flex justify-content-end align-items-stretch"
       >
-        <div class="nav-item col-1">
-          <a href="#workblock">Work</a>
-        </div>
+        <div class="first-item nav-item col-1"><a href="#workblock">Work</a></div>
         <!-- <div class="nav-item col-1"><a href="#"><span class="nav-item col-1">About</span></a>
         </div> -->
         <div class="nav-item col-1">
-          <a href="Madhuri Bhavana.pdf" target="_blank"
+          <a href="Madhuri Bhavana.pdf"
             ><span class="nav-item col-1">Resume</span></a
           >
         </div>
         <div class="nav-item col-1">
-          <a href="#footer-block"
-            ><span class="nav-item col-1">Contact</span></a
-          >
+          <a href="#contactblock"><span class="nav-item col-1">Contact</span></a>
         </div>
         <div class="nav-item col-1">
           <a href="#"><span class="nav-item col-1"></span></a>
@@ -136,13 +126,8 @@
     <!-- Navigation bar ends  -->
 
     <!-- Introduction -->
-    <div
-      id="introduction-block"
-      class="introduction container d-flex justify-content-center"
-    >
-      <div
-        class="introduction-block-description col-7 d-flex align-items-start flex-column"
-      >
+    <div id="introduction-block" class="introduction container d-flex justify-content-center">
+      <div class="introduction-block-description col-7 d-flex align-items-start flex-column">
         <div class="p-3 hi-Namaste">Hi! Namaste! 👋</div>
         <div class="p-2 name-block">
           <span class="last-name black-font">I am Bhavana, a UXer.</span><br />
@@ -158,37 +143,33 @@
           >
         </div>
       </div>
-      <div
-        class="introduction-block-image col-5 d-flex justify-content-end align-self-center"
-      >
+      <div class="introduction-block-image col-5 d-flex justify-content-end align-self-center">
         <img src="./images/homepage_maddy.png" />
       </div>
     </div>
 
     <div class="container card-group projects-container project-1">
       <div class="projects-container-header">
-        <a name="workblock"
-          ><h2>
-            UX work I Shipped + Projects
-            <strong style="color: #4080ff; font-size: 48px;">.</strong>
-            <p style="font-size: 20px; margin-bottom: -30px;">
-              Some of my selected UX work
-            </p>
-            <br />
-            <hr class="horizontal-line" />
-          </h2>
-        </a>
+        <a name="workblock"><h2>
+          UX work I Shipped + Projects
+          <strong style="color: #4080ff; font-size: 48px;">.</strong>
+          <p style="font-size: 20px; margin-bottom: -30px;">
+            Some of my selected UX work
+          </p>
+          <br />
+          <hr class="horizontal-line" />
+        </h2>
+      </a>
       </div>
 
-      <!-- AdMob -->
+<!-- AdMob -->
       <div class="card-container d-flex justify-content-around">
         <a class="page-link" href="admob.html">
           <div class="card">
             <img
               class="card-img-top"
               src="./images/projectlinks/proj7.png"
-              alt="Card image cap"
-            />
+              alt="Card image cap"/>
             <div class="card-body">
               <h5 class="card-title">Content publishers needs and behaviors</h5>
               <p class="card-text">
@@ -197,14 +178,11 @@
             </div>
             <div class="card-footer d-flex justify-content-start badge-block">
               <span class="badge badge-pill badge-primary">Cross-platform</span>
-              <span class="badge badge-pill badge-primary"
-                >Cross-functional</span
-              >
+              <span class="badge badge-pill badge-primary">Cross-functional</span>
             </div>
-          </div></a
-        >
+          </div></a>
 
-        <!-- Amazon -->
+<!-- Amazon -->
         <a class="page-link" href="amazon.html">
           <div class="card">
             <img
@@ -226,7 +204,7 @@
           </div></a
         >
 
-        <!-- Nutanix -->
+<!-- Nutanix -->
         <a class="page-link" href="nutanix.html">
           <div class="card">
             <img
@@ -246,22 +224,21 @@
               <span class="badge badge-pill badge-primary">B2B</span>
               <span class="badge badge-pill badge-primary">AGILE PROCESS</span>
             </div>
-          </div></a
-        >
+          </div></a>
       </div>
 
-      <!-- End of first row of projects -->
-      <!-- Second row -->
+<!-- End of first row of projects -->
+<!-- Second row -->
 
-      <!-- Google glass -->
+<!-- Google glass -->
       <div class="card-container d-flex justify-content-around">
+
         <a class="page-link" href="glass.html">
           <div class="card">
             <img
               class="card-img-top"
               src="./images/projectlinks/proj6.png"
-              alt="Card image cap"
-            />
+              alt="Card image cap"/>
 
             <div class="card-body">
               <h5 class="card-title">
@@ -273,14 +250,13 @@
             </div>
             <div class="card-footer d-flex justify-content-start badge-block">
               <span class="badge badge-pill badge-primary">UI | UX Design</span>
-              <span class="badge badge-pill badge-primary"
-                >Augmented Reality</span
-              >
+              <span class="badge badge-pill badge-primary">Augmented Reality</span>
             </div>
           </div>
         </a>
 
-        <!-- Friza -->
+
+<!-- Friza -->
         <a class="page-link" href="amazon.html">
           <div class="card">
             <img
@@ -302,7 +278,7 @@
           </div>
         </a>
 
-        <!-- Cardekho -->
+<!-- Cardekho -->
         <a class="page-link" href="amazon.html">
           <div class="card">
             <img
@@ -321,12 +297,12 @@
               <span class="badge badge-pill badge-primary">UX Research</span>
               <span class="badge badge-pill badge-primary">B2C</span>
             </div>
-          </div></a
-        >
+          </div></a>
       </div>
     </div>
 
-    <!-- Explorations -->
+
+<!-- Explorations -->
     <div class="container card-group projects-container project-1">
       <div class="projects-container-header">
         <h2>
@@ -340,7 +316,7 @@
         </h2>
       </div>
 
-      <!-- branding -->
+<!-- branding -->
       <div class="card-container d-flex justify-content-around">
         <div class="card">
           <img
@@ -360,85 +336,73 @@
           </div>
         </div>
 
-        <!-- serpentine -->
-        <a
-          class="page-link"
-          href="https://docs.google.com/presentation/d/1L5GhzelAnS9XgfAmt6JSuMHtTWz3RM54nP7qlgJMhgY/edit?usp=sharing"
-        >
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="./images/projectlinks/proj9.png"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">
-                Gesture based interactions with a wrist wearable
-              </h5>
-              <p class="card-text">
-                Designed alternate interactions with the strap of a smartwatch.
-              </p>
-            </div>
-            <div class="card-footer d-flex justify-content-start badge-block">
-              <span class="badge badge-pill badge-primary">Wearables</span>
-              <span class="badge badge-pill badge-primary">UX</span>
-            </div>
+<!-- serpentine -->
+<a class="page-link" href="https://docs.google.com/presentation/d/1L5GhzelAnS9XgfAmt6JSuMHtTWz3RM54nP7qlgJMhgY/edit?usp=sharing">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./images/projectlinks/proj9.png"
+            alt="Card image cap"/>
+          <div class="card-body">
+            <h5 class="card-title">
+              Gesture based interactions with a wrist wearable
+            </h5>
+            <p class="card-text">
+              Designed alternate interactions with the strap of a smartwatch.
+            </p>
           </div>
-        </a>
+          <div class="card-footer d-flex justify-content-start badge-block">
+            <span class="badge badge-pill badge-primary">Wearables</span>
+            <span class="badge badge-pill badge-primary">UX</span>
+          </div>
+        </div>
+</a>
 
-        <!-- Airline networks -->
-        <a class="page-link" href="http://airlinenetworks.herokuapp.com/">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="./images/projectlinks/eproj4.png"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Visualizing US Airline Networks</h5>
-              <p class="card-text">
-                A webapp to visualize US air carrier networks from 1990-2018
-              </p>
-            </div>
-            <div class="card-footer d-flex justify-content-start badge-block">
-              <span class="badge badge-pill badge-primary"
-                >Infomation Visualization</span
-              >
-            </div>
+
+<!-- Airline networks -->
+      <a class="page-link" href="http://airlinenetworks.herokuapp.com/">
+        <div class="card">
+          <img class="card-img-top"
+            src="./images/projectlinks/eproj4.png"
+            alt="Card image cap"/>
+          <div class="card-body">
+            <h5 class="card-title">Visualizing US Airline Networks</h5>
+            <p class="card-text">
+              A webapp to visualize US air carrier networks from 1990-2018
+            </p>
           </div>
-        </a>
+          <div class="card-footer d-flex justify-content-start badge-block">
+            <span class="badge badge-pill badge-primary">Infomation Visualization</span>
+          </div>
+        </div>
+      </a>
+
+
       </div>
     </div>
 
     <!-- Footer  -->
-
-    <footer
-      id="footer-block"
-      class="container-fluid row col-12 d-flex align-self-end"
-    >
+<a name="contactblock">
+    <footer id="footer-block" class="container-fluid row col-12 d-flex align-self-end">
       <div class="footer-inner-block align-self-end row col-12">
         <div class="row col-12 d-flex footer-place-holder">
           <div class="place-holder namaste-footer">
+
             <span class="ml-auto p-3 hi-Namaste footer-namaste-block">
               🖖&nbsp;&nbsp; Let's chat more! <br />
             </span>
 
-            <a class="contactblock"
-              ><span class="ml-auto p-3 hi-Namaste footer-chat-block"
-                >&nbsp;Ping me to talk about design, hiking or anime over
-                Chai.</span
-              ></a
+            <span class="ml-auto p-3 hi-Namaste footer-chat-block"
+              >&nbsp;Ping me to talk about design, hiking or anime over
+              Chai.</span
             >
           </div>
         </div>
 
-        <div
-          class="row col-12 footer-name-holder d-flex justify-content-around"
-        >
+        <div class="row col-12 footer-name-holder d-flex justify-content-around">
           <div class="col-3 footer-name">
             <span class="name-holder">
-              <i class="fa fa-copyright"> </i>&nbsp Madhuri Bhavana</span
-            >
+              <i class="fa fa-copyright"> </i>&nbsp Madhuri Bhavana</span>
           </div>
 
           <div class="col-3 oval-holder">
@@ -467,14 +431,13 @@
           </div>
 
           <div class="col-3 footer-name d-flex justify-content-end">
-            <span class="name-holder heart">
-              Designed with ♥️&nbsp; and chai!
-            </span>
+            <span class="name-holder heart"> Designed with ♥️&nbsp; and chai! </span>
           </div>
         </div>
       </div>
     </footer>
+</a>
 
-    <!-- End of contact and footer blocks -->
+<!-- End of contact and footer blocks -->
   </body>
 </html>
