@@ -59,6 +59,10 @@
   color: #555;
   display: block;
 }
+.nav-item a:hover {
+  text-decoration: none;
+  color: #333;
+}
 .first-item {
   box-shadow: 0px 2px #4080ff;
 }
@@ -173,7 +177,7 @@
   color: #777;
 }
 
-.intro-description-text b{
+.intro-description-text b {
   font-family: sf-bold, Roboto, Helvetica !important; /*change the fonts*/
   color: #333;
 }
@@ -368,7 +372,6 @@
 .text-box {
   background-color: #f2f2f2;
 }
-
 
 .text-box-inner {
   padding: 30px 12px 12px 12px;
