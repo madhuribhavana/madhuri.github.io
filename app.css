@@ -453,6 +453,9 @@
   margin-bottom: 15rem;
   height: 16rem;
 }
+.nav-item a {
+  color: #555;
+}
 .introduction-block-description {
   padding: 1rem 0 0 3rem;
 }
@@ -624,9 +627,12 @@ p.card-text {
 }
 a.page-link {
   border: none;
-  color: black;
+  color: #555;
   text-decoration: none;
   padding-left: 0;
+}
+a.page-link :focus {
+  text-decoration: none;
 }
 .page-link:hover {
   border: none;
