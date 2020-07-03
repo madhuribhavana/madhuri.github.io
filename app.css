@@ -382,12 +382,9 @@
 }
 
 .section-header h2 {
-  opacity: 0.77;
   font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   padding-left: 55px;
-  color: #111;
-  font-size: 2rem;
 }
 
 .text-box {
