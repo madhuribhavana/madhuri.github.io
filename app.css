@@ -454,7 +454,13 @@
   height: 16rem;
 }
 .nav-item a {
-  color: #555;
+  color: #555555;
+}
+.nav-item a :active {
+  color: #555555;
+}
+.nav-item a :focus {
+  color: #555555;
 }
 .nav-item a :hover {
   color: #c0c0c0;
@@ -634,10 +640,12 @@ a.page-link {
   text-decoration: none;
   padding-left: 0;
 }
-a.page-link :focus {
+.page-link:focus {
   text-decoration: none;
+  box-shadow: none;
 }
-.page-link:hover {
+
+a.page-link:hover {
   border: none;
   color: black;
   text-decoration: none;
