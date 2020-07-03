@@ -456,6 +456,9 @@
 .nav-item a {
   color: #555;
 }
+.nav-item a :hover {
+  color: #c0c0c0;
+}
 .introduction-block-description {
   padding: 1rem 0 0 3rem;
 }
