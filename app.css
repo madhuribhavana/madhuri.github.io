@@ -71,6 +71,9 @@
   font-size: 64px;
   margin-left: 3rem;
 }
+#logo img {
+  vertical-align: top;
+}
 
 #header-block {
   padding-top: 6.5rem;
