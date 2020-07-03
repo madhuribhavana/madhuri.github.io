@@ -626,6 +626,7 @@ a.page-link {
   border: none;
   color: black;
   text-decoration: none;
+  padding-left: 0;
 }
 .page-link:hover {
   border: none;
