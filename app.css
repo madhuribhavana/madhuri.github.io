@@ -35,7 +35,8 @@
   box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
   background-color: rgba(255, 255, 255, 0.98);
   height: 60px;
-  position: absolute;
+  position: sticky;
+  z-index: 1234;
   top: 0px;
   left: 0px;
   font-family: product-sans-regular;
@@ -100,7 +101,7 @@
 
 .sub-header h1 {
   opacity: 0.77;
-  font-family: Product Sans, Helvetica, sans-serif !important; /*change the fonts*/
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   color: #111;
   font-size: 45px;
@@ -382,11 +383,11 @@
 
 .section-header h2 {
   opacity: 0.77;
-  font-family: Product Sans, Helvetica, sans-serif !important; /*change the fonts*/
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   padding-left: 55px;
   color: #111;
-  font-size: 42px;
+  font-size: 2rem;
 }
 
 .text-box {
