@@ -96,6 +96,9 @@
   font-size: 16px;
   color: #999;
 }
+#problem-block-header h5 {
+  padding: 0 0 0 1rem;
+}
 
 .sub-heading {
   opacity: 0.77;
@@ -124,6 +127,8 @@
   text-align: center;
   color: #111;
   font-size: 36px;
+  text-align: left;
+  padding: 1rem 0 4rem 1rem;
 }
 
 .sub-header h3 {
