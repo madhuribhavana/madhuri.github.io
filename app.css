@@ -19,6 +19,16 @@
 }
 
 @font-face {
+  font-family: product-sans-medium;
+  src: url("./font/ProductSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: product-sans-bold;
+  src: url("./font/ProductSans-Bold.ttf");
+}
+
+@font-face {
   font-family: sf-medium;
   src: url("./font/SF-Pro-Text-Medium.otf");
 }
@@ -101,19 +111,27 @@
 
 .sub-header h1 {
   opacity: 0.77;
-  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  font-family: product-sans-medium, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   color: #111;
   font-size: 45px;
   line-height: 3.5rem;
 }
 
-.sub-header h3 {
+.sub-header h2 {
   opacity: 0.77;
-  font-family: Product Sans, Helvetica, sans-serif !important; /*change the fonts*/
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: center;
   color: #111;
-  font-size: 24px;
+  font-size: 36px;
+}
+
+.sub-header h3 {
+  opacity: 0.77;
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
+  text-align: center;
+  color: #111;
+  font-size: 30px;
 }
 
 .feature-block {
@@ -389,6 +407,10 @@
 
 .text-box {
   background-color: #f2f2f2;
+}
+
+.text-box-white {
+  background-color: #fff;
 }
 
 .text-box-inner {
