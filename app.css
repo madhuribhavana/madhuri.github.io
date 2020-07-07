@@ -725,3 +725,6 @@ a.page-link:hover {
   shadow: none;
   background-color: white;
 }
+.admob-left-align {
+  margin-left: 0rem;
+}
