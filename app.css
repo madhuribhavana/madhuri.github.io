@@ -728,6 +728,13 @@ a.page-link:hover {
 .admob-left-align {
   margin-left: 0rem;
 }
+.admob-left-align h5 {
+  margin-left: -5rem;
+}
 .glass-design-heading h4 {
   margin-top: 6rem;
+}
+.dim-text {
+  font-family: sf-light, Roboto, Helvetica !important;
+  color: #777;
 }
