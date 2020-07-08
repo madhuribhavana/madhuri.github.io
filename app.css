@@ -329,6 +329,7 @@
 
 .process {
   padding-bottom: 4rem;
+  width: 70%;
 }
 
 .process-image {
@@ -729,7 +730,7 @@ a.page-link:hover {
   margin-left: 0rem;
 }
 .admob-left-align h5 {
-  margin-left: -5rem;
+  margin-left: 0rem;
 }
 .glass-design-heading h4 {
   margin-top: 6rem;
