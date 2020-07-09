@@ -166,7 +166,7 @@
 
 .sub-header h4 {
   opacity: 0.77;
-  font-family: product-sans-light, Helvetica, sans-serif !important; /*change the fonts*/
+  font-family: product-sans-regular, Helvetica, sans-serif !important; /*change the fonts*/
   text-align: left;
   color: #111;
   font-size: 30px;
@@ -347,6 +347,15 @@
 .process-image-no-text {
   display: block;
   margin-left: Auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+.process-image-no-text-glass {
+  display: block;
+  margin-left: 0rem !important;
   margin-right: auto;
   width: 100%;
   padding-top: 0rem;
