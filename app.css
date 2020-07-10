@@ -162,6 +162,7 @@
   color: #555;
   font-size: 30px;
   line-height: 2.4rem;
+  padding-bottom: 6rem;
 }
 
 .sub-header h4 {
@@ -242,6 +243,12 @@
   color: #777;
 }
 
+.intro-description-text-center{
+  font-family: sf-light, Roboto, Helvetica !important; /*change the fonts*/
+  color: #777;
+}
+
+
 .process-description-text {
   font-family: sf-light, Roboto, Helvetica !important; /*change the fonts*/
   color: #111;
@@ -249,7 +256,7 @@
 
 .intro-description-text b {
   font-family: sf-bold, Roboto, Helvetica !important; /*change the fonts*/
-  color: #333;
+  color: #555;
 }
 
 .intro-description-text span {
@@ -333,6 +340,10 @@
 }
 .admob-image {
   width: 75%;
+}
+
+.admob-image-landscape {
+  width: 120%;
 }
 
 .process-image {
